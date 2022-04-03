@@ -1,0 +1,73 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat",Helvetica,Arial,serif;
+}
+
+.logoDiv{
+    background-color: #7367f0;
+}
+.index-container{
+    display: flex;
+    width: 98%;
+    margin: auto;
+   justify-content: space-between;
+}
+.doodle >img{
+    width: 70%;
+}
+.welcome{
+    font-weight: lighter;
+}
+.dashboard-card{
+    width: 25%;
+    padding: 3%;
+    border-left: 1px solid #d8d6de;
+}
+.profile-logo{
+    text-align: center;
+}
+#username{
+    text-align: center;
+}
+.loginEdit{
+    display: flex;
+    justify-content: center;
+
+}
+#loginOrEditProfile,#logOut,.orSignup{
+color: whitesmoke;
+font-size: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 100%;
+    border: none;
+    padding: 4%;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 0.786rem 1.5rem;
+    border-radius: 0.358rem;
+}
+#loginOrEditProfile{
+    background-color: #7367f0;   
+}
+#logOut,.orSignup{
+    background-color: #ea5455;
+    cursor: pointer;
+}
+.loginOrSignup{
+    text-align: center;
+}
+/* .loginOrSignup::before{
+    content: ;
+} */
+.success{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    margin-top:9%;
+    justify-content: center;
+}
+.success >img{
+    width: 50%;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sowedane</title>
+    <link rel="stylesheet" href="../styles/signup.css">
+  </head>
+  <body>
+    <div class="logoDiv"><a href="index.html"><img src="http://www.sowedane.com/media/1051/sowedane_logo.png" alt=""></a></div>
+    <div id="errorMessage"></div>
+      <div class="signUp">
+          <h2>Create Account</h2>
+          <div>  
+          <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Email" required />
+            <label for="name">Enter your name</label>
+              <input type="text" name="" id="name"/>
+              <label for="password">Create Password</label>    
+              <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+              <label for="confirmPassword">Confirm Password</label>
+              <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Confirm Password"
+                required
+              />
+            <button id="signBtn">Sign Up</button>
+            <p class="goToLogin">Already Registered! Go to <a href="login.html" id="login">Log In</a></p>
+        </div>
+    </div>
+  </body>
+</html>
+<script type="module" src="../scripts/signup.js"></script>

@@ -1,0 +1,81 @@
+*{
+font-family: "Montserrat",Helvetica,Arial,serif;
+margin: 0;
+padding: 0%;
+}
+.logoDiv{
+    background-color: #7367f0;
+}
+.logIn{
+    width: 40%;
+    margin: 5% auto;
+    padding: 2% 0%;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+label,.pswrdCont>p,.goToSignUp{
+    color: #5e5873;
+    font-size: .857rem;
+    /* color: rgb(203, 244, 203); */
+}
+a{
+    color: black;
+}
+.logIn >h2{
+    text-align: center;
+}
+.logIn >div{
+    width: 50%;
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.logIn >div>input{
+    border: 1px solid #d8d6de;
+    border-radius: 0.357rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    padding: 0.438rem 1rem;
+    margin-bottom: 5%;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.pswrdCont{
+    display: flex;
+    justify-content: space-between;
+}
+.pswrdCont >a{
+   font-size: 13px;
+}
+.logIn >div>input:focus{
+    outline: 1px solid #7367f0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.logIn >label{
+    text-align: left;
+}
+#loginBtn{
+    color: whitesmoke;
+    background-color: #7367f0;
+    font-size: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 100%;
+    margin: 5% auto;
+    border: none;
+    padding: 4%;
+    cursor: pointer;
+}
+/* Error Message */
+#errorMessage{
+    width: 40%;
+    margin:0.5% auto;
+    padding: 1%;
+    border-radius: 7px;
+    font-size: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: none;
+    margin-bottom: 2%;
+}
+.goToSignUp{
+    text-align: center;
+}
